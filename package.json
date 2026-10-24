@@ -4,5 +4,11 @@
   "type": "module",
   "scripts": {
     "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.10"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

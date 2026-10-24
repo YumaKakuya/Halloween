@@ -1,5 +1,26 @@
 {
   "framework": null,
   "buildCommand": "node build.mjs",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/c",
+      "destination": "/api/share"
+    },
+    {
+      "source": "/ja/c",
+      "destination": "/api/share-ja"
+    }
+  ],
+  "functions": {
+    "api/share.js": {
+      "includeFiles": "src/**"
+    },
+    "api/share-ja.js": {
+      "includeFiles": "src/**"
+    },
+    "api/og.js": {
+      "includeFiles": "{src/costume.js,fonts/**}"
+    }
+  }
 }
