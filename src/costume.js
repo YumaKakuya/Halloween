@@ -12,6 +12,9 @@
         { id: "corn",    name: { ja: "キャンディコーン帽", en: "Candy Corn Cap" },      kcal: 140, sw: "#ff9a1f" },
         { id: "cupcake", name: { ja: "カップケーキ帽",     en: "Cupcake Hat" },         kcal: 380, sw: "#ff9ec4" },
         { id: "donut",   name: { ja: "ドーナツの輪っか",   en: "Donut Halo" },          kcal: 290, sw: "#d9984c" },
+        { id: "crown",   name: { ja: "マカロンの王冠",     en: "Macaron Crown" },       kcal: 330, sw: "#c9a7ff" },
+        { id: "icecream",name: { ja: "さかさまアイス",     en: "Upside-Down Ice Cream" }, kcal: 270, sw: "#e0a458" },
+        { id: "horns",   name: { ja: "シナモンキャンディの角", en: "Cinnamon Candy Horns" }, kcal: 160, sw: "#e8263f" },
         { id: "none",    name: { ja: "なし",               en: "None" },                kcal: 0,   sw: "transparent" }
       ]},
       face: { label: { ja: "顔", en: "Face" }, items: [
@@ -19,25 +22,36 @@
         { id: "pumpkin", name: { ja: "かぼちゃキャンディの仮面", en: "Pumpkin Candy Mask" },  role: { ja: "かぼちゃ大王", en: "Pumpkin King" }, kcal: 160, sw: "#ff8a1f" },
         { id: "mummy",   name: { ja: "マシュマロ包帯", en: "Marshmallow Wraps" },             role: { ja: "ミイラ", en: "Mummy" },            kcal: 230, sw: "#fffaf4" },
         { id: "cat",     name: { ja: "チョコ耳とグミのヒゲ", en: "Choco Ears & Gummy Whiskers" }, role: { ja: "黒猫", en: "Black Cat" },    kcal: 180, sw: "#2a1a14" },
-        { id: "ghost",   name: { ja: "綿あめのシーツ", en: "Cotton Candy Sheet" },            role: { ja: "おばけ", en: "Ghost" },            kcal: 110, sw: "#ffd3e8" }
+        { id: "ghost",   name: { ja: "綿あめのシーツ", en: "Cotton Candy Sheet" },            role: { ja: "おばけ", en: "Ghost" },            kcal: 110, sw: "#ffd3e8" },
+        { id: "skull",   name: { ja: "ホワイトチョコのドクロ", en: "White Chocolate Skull" },  role: { ja: "ガイコツ", en: "Skeleton" },        kcal: 200, sw: "#fbf6ee" },
+        { id: "frank",   name: { ja: "ミントグミの顔とリコリスのボルト", en: "Mint Gummy Face & Licorice Bolts" }, role: { ja: "フランケン", en: "Frankenstein" }, kcal: 170, sw: "#a8e6a1" },
+        { id: "wolf",    name: { ja: "チョコの毛皮とキャンディコーンの牙", en: "Choco Fur & Candy Corn Fangs" }, role: { ja: "オオカミ男", en: "Werewolf" }, kcal: 260, sw: "#6b4423" }
       ]},
       outfit: { label: { ja: "服", en: "Outfit" }, items: [
         { id: "choco", name: { ja: "板チョコのマント", en: "Chocolate Bar Cape" },         adj: { ja: "ビターな", en: "Bittersweet " }, kcal: 560, sw: "#7a4a2c", sleeve: "#7a4a2c" },
         { id: "lolli", name: { ja: "ペロペロキャンディのローブ", en: "Lollipop Robe" },     adj: { ja: "ぐるぐるの", en: "Swirly " },    kcal: 300, sw: "#ff9ec4", sleeve: "#ff9ec4" },
         { id: "wafer", name: { ja: "ウエハースの鎧", en: "Wafer Armor" },                  adj: { ja: "サクサクの", en: "Crunchy " },   kcal: 450, sw: "#e8b86d", sleeve: "#e8b86d" },
-        { id: "bean",  name: { ja: "ジェリービーンズのドレス", en: "Jelly Bean Dress" },    adj: { ja: "つやつやの", en: "Glossy " },    kcal: 340, sw: "#7b5cd6", sleeve: "#7b5cd6" }
+        { id: "bean",  name: { ja: "ジェリービーンズのドレス", en: "Jelly Bean Dress" },    adj: { ja: "つやつやの", en: "Glossy " },    kcal: 340, sw: "#7b5cd6", sleeve: "#7b5cd6" },
+        { id: "ginger", name: { ja: "ジンジャーブレッドのスーツ", en: "Gingerbread Suit" },   adj: { ja: "スパイシーな", en: "Spicy " },  kcal: 520, sw: "#b86a2b", sleeve: "#b86a2b" },
+        { id: "marsh",  name: { ja: "マシュマロのダウン", en: "Marshmallow Puffer" },        adj: { ja: "ふわふわの", en: "Fluffy " },   kcal: 410, sw: "#fffaf4", sleeve: "#fffaf4" },
+        { id: "tux",    name: { ja: "リコリスのタキシード", en: "Licorice Tuxedo" },         adj: { ja: "おしゃれな", en: "Dapper " },   kcal: 380, sw: "#1b1020", sleeve: "#1b1020" }
       ]},
       prop: { label: { ja: "小物", en: "Prop" }, items: [
         { id: "cane",   name: { ja: "キャンディケインの杖", en: "Candy Cane Staff" }, kcal: 150, sw: "#e8263f" },
         { id: "lolli",  name: { ja: "ジャンボロリポップ",   en: "Giant Lollipop" },   kcal: 220, sw: "#ffd23f" },
         { id: "churro", name: { ja: "チュロスのほうき",     en: "Churro Broom" },     kcal: 380, sw: "#d99a4f" },
         { id: "cookie", name: { ja: "クッキーの盾",         en: "Cookie Shield" },    kcal: 480, sw: "#d8a25c" },
+        { id: "apple",  name: { ja: "キャラメルりんご",     en: "Caramel Apple" },    kcal: 290, sw: "#c98a3d" },
+        { id: "bucket", name: { ja: "お菓子いっぱいのかぼちゃバケツ", en: "Candy Pumpkin Bucket" }, kcal: 650, sw: "#ff8a1f" },
+        { id: "wings",  name: { ja: "チョコのコウモリの羽", en: "Chocolate Bat Wings" }, kcal: 340, sw: "#4a2a18" },
         { id: "none",   name: { ja: "なし",                 en: "None" },             kcal: 0,   sw: "transparent" }
       ]},
       bg: { label: { ja: "背景", en: "Background" }, items: [
         { id: "moon", name: { ja: "満月の夜",   en: "Full Moon Night" },   kcal: 0, sw: "#2b1850" },
         { id: "dusk", name: { ja: "夕焼けの丘", en: "Sunset Hill" },       kcal: 0, sw: "#ff7a6b" },
-        { id: "mist", name: { ja: "綿あめの霧", en: "Cotton Candy Mist" }, kcal: 0, sw: "#a9c6e6" }
+        { id: "mist", name: { ja: "綿あめの霧", en: "Cotton Candy Mist" }, kcal: 0, sw: "#a9c6e6" },
+        { id: "house", name: { ja: "お菓子のおばけ屋敷", en: "Gingerbread Haunted House" }, kcal: 0, sw: "#355c7d" },
+        { id: "grave", name: { ja: "クッキーの墓場", en: "Cookie Graveyard" }, kcal: 0, sw: "#5d6e5a" }
       ]}
     };
 
@@ -127,6 +141,40 @@
         ctx.fillStyle = g; ctx.fillRect(0, 0, 400, 400);
         cloud(30, 90, 1.1, "rgba(255,214,234,.9)"); cloud(270, 60, 1.3, "rgba(255,255,255,.75)");
         cloud(300, 190, .9, "rgba(255,214,234,.8)"); cloud(20, 230, .8, "rgba(255,255,255,.6)");
+      },
+      house() {
+        const g = ctx.createLinearGradient(0, 0, 0, 400); g.addColorStop(0, "#13213f"); g.addColorStop(1, "#355c7d");
+        ctx.fillStyle = g; ctx.fillRect(0, 0, 400, 400);
+        const r = rng(41); for (let i = 0; i < 34; i++) circle(r() * 400, r() * 200, .6 + r() * 1.2, `rgba(255,244,214,${.35 + r() * .55})`);
+        ctx.save(); ctx.beginPath(); ctx.rect(0, 0, 400, 400); ctx.arc(91, 63, 24, 0, TAU, true); ctx.clip("evenodd");
+        circle(78, 72, 26, "#fff1c1"); ctx.restore();
+        // gingerbread house
+        rr(284, 238, 82, 116, 4); ctx.fillStyle = "#b86a2b"; ctx.fill();
+        tri([270, 244], [325, 184], [380, 244], "#7a4a2c");
+        ctx.beginPath();
+        for (let i = 0; i <= 10; i++) { const x = 270 + i * 11, y = 244 + (i % 2 ? 5 : 0); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }
+        ctx.strokeStyle = "#fff8ee"; ctx.lineWidth = 4; ctx.lineJoin = "round"; ctx.stroke();
+        line(272, 242, 325, 186, "#fff8ee", 4); line(325, 186, 378, 242, "#fff8ee", 4);
+        [[300, 228, "#ff6f91"], [325, 206, "#ffd23f"], [350, 228, "#7fe0c4"]].forEach(([x, y, c]) => circle(x, y, 6, c));
+        [[296, 262], [334, 262]].forEach(([x, y]) => { rr(x, y, 20, 22, 4); ctx.fillStyle = "#ffd884"; ctx.fill(); line(x + 10, y, x + 10, y + 22, "#b86a2b", 2); line(x, y + 11, x + 20, y + 11, "#b86a2b", 2); });
+        rr(315, 302, 20, 48, 9); ctx.fillStyle = "#5a3420"; ctx.fill(); circle(330, 328, 2, "#ffd23f");
+        // a small ghost peeking out of the left window
+        ell(306, 276, 7, 9, 0, "#fffaf4"); circle(303.5, 274, 1.4, "#2b1838"); circle(308.5, 274, 1.4, "#2b1838");
+        bat(120, 120, .8, "#0b1530");
+      },
+      grave() {
+        const g = ctx.createLinearGradient(0, 0, 0, 400); g.addColorStop(0, "#1f2a3d"); g.addColorStop(1, "#5d6e5a");
+        ctx.fillStyle = g; ctx.fillRect(0, 0, 400, 400);
+        circle(300, 86, 54, "rgba(233,245,208,.12)"); circle(300, 86, 38, "#e9f5d0");
+        bat(90, 80, .9, "#141b28"); bat(126, 60, .6, "#141b28");
+        [[58, 66], [116, 48], [296, 54], [354, 72]].forEach(([x, h]) => {
+          const top = 352 - h;
+          ctx.beginPath(); ctx.moveTo(x - 19, 362); ctx.lineTo(x - 19, top + 19); ctx.arc(x, top + 19, 19, Math.PI, 0); ctx.lineTo(x + 19, 362); ctx.closePath();
+          ctx.fillStyle = "#d8a25c"; ctx.fill(); ctx.strokeStyle = "#fff3e6"; ctx.lineWidth = 2.5; ctx.stroke();
+          line(x, top + 12, x, top + 32, "#7a4a2c", 3); line(x - 7, top + 19, x + 7, top + 19, "#7a4a2c", 3);
+          circle(x - 9, top + 42, 2.2, "#7a4a2c"); circle(x + 8, top + 46, 2.2, "#7a4a2c");
+        });
+        [[0, 312, 400], [-40, 330, 300], [120, 300, 320]].forEach(([x, y, w]) => ell(x + w / 2, y, w / 2, 10, 0, "rgba(255,255,255,.10)"));
       }
     };
     function ground() {
@@ -198,6 +246,36 @@
         }
       }
     };
+    Object.assign(OUTFIT, {
+      ginger: {
+        back() {},
+        front() {
+          rr(160, 212, 80, 110, 22); ctx.fillStyle = "#b86a2b"; ctx.fill();
+          const wave = (y) => { ctx.beginPath(); for (let x = 164; x <= 236; x += 2) { const yy = y + Math.sin((x - 164) / 4) * 3; x === 164 ? ctx.moveTo(x, yy) : ctx.lineTo(x, yy); } ctx.strokeStyle = "#fff8ee"; ctx.lineWidth = 3; ctx.lineCap = "round"; ctx.stroke(); };
+          wave(222); wave(312);
+          [[246, "#ff6f91"], [270, "#7fe0c4"], [294, "#ffd23f"]].forEach(([y, c]) => { circle(200, y, 6.5, c); circle(198, y - 2, 2, "rgba(255,255,255,.55)"); });
+        }
+      },
+      marsh: {
+        back() {},
+        front() {
+          [218, 244, 270, 296].forEach((y) => { rr(156, y, 88, 28, 14); ctx.fillStyle = "#fffaf4"; ctx.fill(); ctx.strokeStyle = "#e3d6ca"; ctx.lineWidth = 2; ctx.stroke(); });
+          ell(200, 214, 28, 8, 0, "#ffd3e8");
+          line(200, 222, 200, 322, "#e3d6ca", 2);
+        }
+      },
+      tux: {
+        back() {},
+        front() {
+          rr(162, 212, 76, 110, 18); ctx.fillStyle = "#1b1020"; ctx.fill();
+          tri([184, 212], [216, 212], [200, 266], "#fff3e6");
+          tri([180, 212], [200, 266], [168, 252], "#e8263f"); tri([220, 212], [200, 266], [232, 252], "#e8263f");
+          tri([188, 214], [188, 228], [200, 221], "#e8263f"); tri([212, 214], [212, 228], [200, 221], "#e8263f"); circle(200, 221, 3.2, "#b51d34");
+          circle(200, 284, 3.5, "#e8263f"); circle(200, 302, 3.5, "#e8263f");
+          for (let x = 170; x <= 230; x += 12) line(x, 316, x + 6, 322, "rgba(255,255,255,.12)", 2);
+        }
+      }
+    });
     function arms(sleeve) {
       line(168, 228, 140, 286, sleeve, 15); line(232, 228, 262, 282, sleeve, 15);
       circle(140, 291, 9, SKIN); circle(264, 288, 9, SKIN);
@@ -206,6 +284,42 @@
     /* ---------- props ---------- */
     const PROP = {
       none: { overHand: false, draw() {} },
+      apple: { overHand: true, draw() {
+        line(264, 300, 264, 232, "#e8d2a8", 5);
+        circle(264, 216, 24, "#d42a3c");
+        ctx.save(); ctx.beginPath(); ctx.arc(264, 216, 24, 0, TAU); ctx.clip();
+        ell(264, 203, 30, 19, 0, "#c98a3d");
+        [[247, 220, 4], [258, 225, 5], [272, 223, 4.5], [283, 217, 3.5]].forEach(([x, y, r]) => circle(x, y, r, "#c98a3d"));
+        const rr2 = rng(7); for (let i = 0; i < 12; i++) circle(246 + rr2() * 36, 196 + rr2() * 16, 1.2, "#f3d9a8");
+        ctx.restore();
+        ell(254, 208, 5, 3, -.5, "rgba(255,255,255,.5)");
+      }},
+      bucket: { overHand: true, draw() {
+        ctx.beginPath(); ctx.moveTo(244, 314); ctx.quadraticCurveTo(264, 268, 284, 314); ctx.strokeStyle = "#2b1838"; ctx.lineWidth = 3; ctx.stroke();
+        [[252, 306, "#ff6f91"], [264, 302, "#ffd23f"], [276, 306, "#7fe0c4"], [258, 300, "#9b7bff"]].forEach(([x, y, c]) => { circle(x, y, 6, c); tri([x - 6, y], [x - 11, y - 4], [x - 11, y + 4], c); });
+        ell(264, 326, 23, 20, 0, "#ff8a1f");
+        ctx.lineWidth = 2; ctx.strokeStyle = "#e06a10";
+        ctx.beginPath(); ctx.ellipse(264, 326, 9, 20, 0, 0, TAU); ctx.stroke();
+        ell(264, 308, 18, 4.5, 0, "#c95a0c");
+        tri([253, 324], [258, 316], [263, 324], "#2b1838"); tri([265, 324], [270, 316], [275, 324], "#2b1838");
+        ctx.beginPath(); ctx.moveTo(253, 332); ctx.quadraticCurveTo(264, 342, 275, 332); ctx.strokeStyle = "#2b1838"; ctx.lineWidth = 2.5; ctx.stroke();
+      }},
+      wings: { overHand: false, back() {
+        for (const side of [1, -1]) {
+          ctx.save();
+          if (side < 0) { ctx.translate(400, 0); ctx.scale(-1, 1); }
+          ctx.beginPath(); ctx.moveTo(186, 232);
+          ctx.quadraticCurveTo(140, 176, 88, 192);
+          ctx.quadraticCurveTo(104, 212, 98, 236);
+          ctx.quadraticCurveTo(118, 228, 126, 248);
+          ctx.quadraticCurveTo(144, 238, 154, 262);
+          ctx.quadraticCurveTo(168, 248, 186, 256);
+          ctx.closePath(); ctx.fillStyle = "#4a2a18"; ctx.fill();
+          [[98, 236], [126, 248], [154, 262]].forEach(([x, y]) => line(184, 236, x, y, "#2e190d", 2.5));
+          ell(150, 210, 14, 4, -.35, "rgba(255,255,255,.08)");
+          ctx.restore();
+        }
+      }, draw() {} },
       cane: { overHand: true, draw() {
         ctx.beginPath(); ctx.moveTo(266, 352); ctx.lineTo(266, 214); ctx.arc(282, 214, 16, Math.PI, 0); ctx.lineTo(298, 228);
         ctx.lineCap = "round"; ctx.lineJoin = "round"; ctx.lineWidth = 10; ctx.strokeStyle = "#fffaf4"; ctx.stroke();
@@ -299,9 +413,85 @@
       }}
     };
 
+    Object.assign(FACE, {
+      skull: { hatY: 0, draw() {
+        rr(192, 203, 16, 16, 4); ctx.fillStyle = "#efe6d8"; ctx.fill();
+        circle(200, 165, 50, "#fbf6ee");
+        ell(182, 166, 12, 13, 0, "#2b1838"); ell(218, 166, 12, 13, 0, "#2b1838");
+        circle(186, 162, 2.6, "#fff"); circle(222, 162, 2.6, "#fff");
+        tri([195, 187], [205, 187], [200, 178], "#2b1838");
+        line(178, 199, 222, 199, "#2b1838", 2.5);
+        for (let x = 184; x <= 216; x += 8) line(x, 194, x, 204, "#2b1838", 2);
+        ctx.beginPath(); ctx.moveTo(226, 128); ctx.lineTo(232, 138); ctx.lineTo(228, 144); ctx.lineTo(235, 152); ctx.strokeStyle = "#cbbfae"; ctx.lineWidth = 2; ctx.stroke();
+      }},
+      frank: { hatY: -4, draw() {
+        rr(192, 203, 16, 16, 4); ctx.fillStyle = "#93d48c"; ctx.fill();
+        rr(138, 168, 16, 12, 3); ctx.fillStyle = "#1b1020"; ctx.fill(); rr(246, 168, 16, 12, 3); ctx.fill();
+        circle(200, 165, 50, "#a8e6a1");
+        ctx.save(); ctx.beginPath(); ctx.arc(200, 165, 53, 0, TAU); ctx.clip();
+        ctx.beginPath(); ctx.moveTo(146, 154); ctx.lineTo(146, 108); ctx.lineTo(254, 108); ctx.lineTo(254, 154);
+        ctx.lineTo(242, 142); ctx.lineTo(230, 152); ctx.lineTo(216, 140); ctx.lineTo(200, 152); ctx.lineTo(184, 140); ctx.lineTo(170, 152); ctx.lineTo(158, 142); ctx.closePath();
+        ctx.fillStyle = "#1b1020"; ctx.fill();
+        ctx.restore();
+        circle(184, 174, 4.5, "#2b1838"); circle(216, 174, 4.5, "#2b1838");
+        line(175, 169, 193, 169, "#2b1838", 3); line(207, 169, 225, 169, "#2b1838", 3);
+        line(188, 195, 212, 195, "#2b1838", 3);
+        line(166, 186, 182, 180, "#4e8a49", 2); [[170, 179, 168, 187], [176, 177, 174, 185]].forEach((w) => line(w[0], w[1], w[2], w[3], "#4e8a49", 1.6));
+      }},
+      wolf: { hatY: 0, draw() {
+        tri([154, 140], [158, 94], [190, 122], "#6b4423"); tri([246, 140], [242, 94], [210, 122], "#6b4423");
+        tri([162, 130], [164, 106], [182, 122], "#c98b5e"); tri([238, 130], [236, 106], [218, 122], "#c98b5e");
+        head();
+        ctx.beginPath(); ctx.arc(200, 165, 53, Math.PI, 0);
+        ctx.lineTo(244, 152); ctx.lineTo(232, 140); ctx.lineTo(222, 152); ctx.lineTo(210, 140); ctx.lineTo(200, 152);
+        ctx.lineTo(190, 140); ctx.lineTo(178, 152); ctx.lineTo(168, 140); ctx.lineTo(156, 152); ctx.closePath();
+        ctx.fillStyle = "#6b4423"; ctx.fill();
+        tri([151, 166], [140, 190], [162, 184], "#6b4423"); tri([249, 166], [260, 190], [238, 184], "#6b4423");
+        ell(182, 167, 6.5, 5.5, 0, "#ffd23f"); ell(218, 167, 6.5, 5.5, 0, "#ffd23f");
+        circle(182, 167, 2.6, "#2b1838"); circle(218, 167, 2.6, "#2b1838");
+        line(174, 158, 190, 162, "#4a2a18", 3); line(226, 158, 210, 162, "#4a2a18", 3);
+        ell(200, 188, 17, 12, 0, "#e8c39e"); ell(200, 181, 6.5, 4.5, 0, "#2b1838");
+        line(200, 185, 200, 192, "#2b1838", 2);
+        ctx.beginPath(); ctx.moveTo(190, 194); ctx.quadraticCurveTo(200, 199, 210, 194); ctx.strokeStyle = "#2b1838"; ctx.lineWidth = 2; ctx.stroke();
+        [192, 208].forEach((x) => { tri([x - 4, 195], [x + 4, 195], [x, 207], "#ff9a1f"); tri([x - 2.2, 202], [x + 2.2, 202], [x, 207], "#fffaf0"); tri([x - 4, 195], [x + 4, 195], [x, 198], "#ffd23f"); });
+      }}
+    });
+
     /* ---------- hats ---------- */
     const HAT = {
       none() {},
+      crown() {
+        rr(158, 106, 84, 15, 7); ctx.fillStyle = "#f2c230"; ctx.fill();
+        [[176, "#ff6f91"], [200, "#7fe0c4"], [224, "#9b7bff"]].forEach(([x, c]) => circle(x, 113.5, 3.5, c));
+        const mac = (x, y, s, c) => { ell(x, y - 4 * s, 10 * s, 6 * s, 0, c); ell(x, y, 10 * s, 2.6 * s, 0, "#fff3e6"); ell(x, y + 4 * s, 10 * s, 6 * s, 0, c); ell(x - 3 * s, y - 6 * s, 3 * s, 1.5 * s, -.3, "rgba(255,255,255,.45)"); };
+        mac(166, 98, .9, "#ff9ec4"); mac(234, 98, .9, "#c9a7ff");
+        mac(182, 90, 1, "#7fe0c4"); mac(218, 90, 1, "#ffd23f");
+        mac(200, 82, 1.25, "#ff9ec4");
+      },
+      icecream() {
+        ctx.beginPath(); ctx.moveTo(168, 114); ctx.lineTo(200, 22); ctx.lineTo(232, 114); ctx.closePath();
+        ctx.fillStyle = "#e0a458"; ctx.fill();
+        ctx.save(); ctx.clip();
+        for (let k = -100; k < 100; k += 11) { line(160 + k, 20, 160 + k + 90, 120, "#b97a35", 2); line(240 - k, 20, 240 - k - 90, 120, "#b97a35", 2); }
+        ctx.restore();
+        ell(200, 116, 46, 16, 0, "#ff9ec4");
+        [[162, 124, 7], [178, 130, 6], [196, 131, 5], [214, 129, 7], [234, 124, 6]].forEach(([x, y, r]) => circle(x, y, r, "#ff9ec4"));
+        sprinkles(12, 12, 166, 106, 68, 14, ["#ffd23f", "#7fe0c4", "#fff3e6", "#9b7bff"], 5);
+        ell(182, 110, 10, 4, -.2, "rgba(255,255,255,.4)");
+      },
+      horns() {
+        ctx.beginPath(); ctx.arc(200, 165, 54, Math.PI * 1.13, Math.PI * 1.87); ctx.strokeStyle = "#2b1838"; ctx.lineWidth = 6; ctx.lineCap = "round"; ctx.stroke();
+        for (const side of [1, -1]) {
+          ctx.save();
+          if (side < 0) { ctx.translate(400, 0); ctx.scale(-1, 1); }
+          ctx.beginPath(); ctx.moveTo(160, 128); ctx.quadraticCurveTo(146, 98, 164, 80); ctx.quadraticCurveTo(166, 104, 186, 120); ctx.closePath();
+          ctx.fillStyle = "#e8263f"; ctx.fill();
+          ctx.save(); ctx.clip();
+          for (let y = 84; y < 130; y += 10) line(140, y + 8, 190, y - 6, "#fff6f0", 3.5);
+          ctx.restore();
+          ctx.restore();
+        }
+      },
       witch() {
         ell(200, 122, 74, 13, 0, "#5b3420");
         ctx.beginPath(); ctx.moveTo(160, 120); ctx.lineTo(204, 36); ctx.quadraticCurveTo(216, 26, 230, 38); ctx.quadraticCurveTo(220, 40, 214, 52); ctx.lineTo(240, 120); ctx.closePath();
@@ -338,7 +528,7 @@
     function drawCharacter(st) {
       const o = OUTFIT[st.outfit], f = FACE[st.face], p = PROP[st.prop];
       ell(200, 364, 58, 8, 0, "rgba(0,0,0,.3)");
-      o.back(); legs(); o.front(); arms(item("outfit", st.outfit).sleeve);
+      o.back(); if (p.back) p.back(); legs(); o.front(); arms(item("outfit", st.outfit).sleeve);
       p.draw(); if (p.overHand) circle(264, 288, 9, SKIN);
       f.draw();
       ctx.save(); ctx.translate(0, f.hatY); HAT[st.hat](); ctx.restore();
