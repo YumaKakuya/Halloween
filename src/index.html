@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Candy Costume Workshop</title>
+<meta name="description" content="Every hat, cape and mask is made of candy. Build a Halloween costume, save it as an image and share it on X.">
+<meta name="theme-color" content="#1e1330">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="__SITE_URL__/">
+<link rel="alternate" hreflang="en" href="__SITE_URL__/">
+<link rel="alternate" hreflang="ja" href="__SITE_URL__/ja/">
+<link rel="alternate" hreflang="x-default" href="__SITE_URL__/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Candy Costume Workshop">
+<meta property="og:title" content="Candy Costume Workshop">
+<meta property="og:description" content="Every hat, cape and mask is made of candy. Build a Halloween costume, save it as an image and share it on X.">
+<meta property="og:url" content="__SITE_URL__/">
+<meta property="og:image" content="__SITE_URL__/og-en.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Candy Costume Workshop">
+<meta name="twitter:description" content="Every hat, cape and mask is made of candy. Build a Halloween costume, save it as an image and share it on X.">
+<meta name="twitter:image" content="__SITE_URL__/og-en.png">
+<meta name="twitter:image:alt" content="Three characters in candy costumes under a full moon, next to the title Candy Costume Workshop">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Nunito:wght@500;700;800&display=swap">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="topline">
+      <div class="eyebrow">HALLOWEEN 2026 · OCT 31</div>
+      <a class="lang" href="/ja/" hreflang="ja" lang="ja">日本語</a>
+    </div>
+    <h1>Candy Costume Workshop</h1>
+    <p class="lead">Every hat, cape and mask here is made of candy. Pick your parts and build a costume you could eat.</p>
+  </header>
+
+  <div class="studio">
+    <section class="stage" aria-label="Costume preview">
+      <canvas id="stage" width="800" height="880" role="img" aria-label="A character wearing a candy costume"></canvas>
+      <div class="actions">
+        <button class="btn btn-primary" id="share" type="button">Share on X</button>
+        <button class="btn btn-ghost" id="save" type="button">Save image</button>
+        <button class="btn btn-quiet" id="random" type="button">Surprise me</button>
+      </div>
+      <p class="hint">On a phone, the image goes straight to the X app. On a computer, the image downloads and the X post window opens.</p>
+    </section>
+
+    <section class="panel">
+      <div class="result" aria-live="polite">
+        <div class="result-label">Today's costume</div>
+        <p class="result-name" id="name"></p>
+        <p class="result-items" id="items"></p>
+        <div class="kcal">
+          <div class="kcal-row">
+            <span class="kcal-num"><span id="kcal">0</span><small id="unit">kcal</small></span>
+            <span class="kcal-level" id="level"></span>
+          </div>
+          <div class="meter" aria-hidden="true"><span id="meter"></span></div>
+        </div>
+      </div>
+      <div id="groups" class="panel"></div>
+      <p class="note">Calories assume you eat the whole costume. They are made up, of course.</p>
+    </section>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>
